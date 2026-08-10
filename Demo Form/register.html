@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body bgcolor="lightblue">
+    <a href="register.html" align="left">Register</a>
+    <a href="login.html" align="left">Login</a>
+    <a href="forgetpassword.html" align="left">Forget Password</a>
+    </p>
+    <form action="" method="post">
+        <table>
+            <tr>
+                <td>Application number:</td>
+                <td><input type="text" name="application_number" required></td>
+            </tr>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="firstname" required></td>
+                <td>Last Name:</td>
+                <td><input type="text" name="lastname" required></td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td><input type="number" name="age" required></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email" required></td>
+                <td>Confirm Email:</td>
+                <td><input type="email" name="confirm_email" required></td>
+                <td>Gender:</td>
+                <td><input type="radio" name="gender" value="male" required>Male
+                    <input type="radio" name="gender" value="female" required>Female</td>
+            </tr>
+            <tr>
+                <td>Mobile:</td>
+                <td><input type="text" name="mobile" required></td>
+                <td>Date of Birth:</td>
+                <td><input type="date" name="dob" required></td>
+                <td>Date & Time:</td>
+                <td><input type="datetime-local" name="datetime" required></td>
+                </td>
+                <td>Week:</td>
+                <td><input type="week" name="week" required></td>
+            </tr>
+            <tr><td>Religion:</td>
+                <td><select name="religion" required>
+                        <option value="hindu">Hindu</option>
+                        <option value="muslim">Muslim</option>
+                        <option value="christian">Christian</option>
+                    </select>
+                </td>
+                <td>Father's Name:</td>
+                <td><input type="text" name="father_name" required></td>
+            </tr>
+            <tr>
+                <td>State:</td>
+                <td><select name="state" required>
+                        <option value="TamilNadu">Tamil Nadu</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="AndhraPradesh">Andhra Pradesh</option>
+                    </select>
+                </td>
+                <td>District:</td>
+                <td><select name="district" required>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Coimbatore">Coimbatore</option>
+                        <option value="Madurai">Madurai</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Pincode:</td>
+                <td><input type="text" name="pincode" required></td>
+                <td>City:</td>
+                <td>
+                    <select name="city" required>
+                        <option value="Thirumanglam">Thirumanglam</option>
+                        <option value="Kilevaneri">Kilevaneri</option>
+                        <option value="Parungudi">Parungudi</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Address1:</td>
+                <td><textarea name="address1" required></textarea></td>
+                <td>Address2:</td>
+                <td><textarea name="address2" required></textarea></td>
+            </tr>
+            <tr>
+                <td>Aadhar file:</td>
+                <td><input type="file" name="aadhar_file" required></td>
+                <td>Photo file:</td>
+                <td><input type="file" name="photo_file" required></td>
+            </tr>
+
+        </table>
+
+
+    </form>
+
+</body>
+
+</html>

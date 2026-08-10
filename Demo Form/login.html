@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN FORM</title>
+</head>
+
+<body bgcolor="lightblue">
+    <a href="register.html" align="left">Register</a>
+    <a href="login.html" align="left">Login</a>
+    <a href="forgetpassword.html" align="left">Forget Password</a>
+    <form action="" method="post">
+        <table>
+            <tr>
+                <td>Username:</td>
+                <td><input type="text" name="username"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td>Member:</td>
+                <td><select name="member">
+                        <option value="Student">Student</option>
+                        <option value="admin">Admin</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2"><input type="checkbox" name="terms">I Accepted Terms and condition</td>
+            </tr>
+            
+                <td><input type="reset" value="Reset"></td>
+                <td><input type="submit" value="Login"></td>
+            </tr>
+            <tr>
+                <td> <center><a href="forgetpassword.html">Forget Password</a></center></td>
+            </tr>
+            <tr>
+                <td rowspan="2"><input type="checkbox" name="terms">Don't have an account? <a href="register.html">Register</a></td>
+            </tr>
+
+        </table>
+    </form>
+
+
+</body>
+
+</html>
