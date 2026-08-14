@@ -1,52 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div{
+        div {
+            display: flex;
             justify-content: space-between;
+            flex-wrap: wrap;
         }
-    .outer{
-        display:flex;
-        align-items: space-around;
-        justify-content: space-between;
-        background-color: aquamarine;
-    
-    }    
+        
 
-    .inner{
-        display: flex;
-       padding: 10px;
-        text-decoration: none;
-        border-radius: 12px;
-        background-color: aliceblue;
-        border-color: 1px soild black;
+        .outer {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: center;
+            width:100%;
+            height: 70PX;
+            background-color: rgb(12, 185, 56);
+            padding-top: 20PX;
+            box-sizing: border-box;
 
-    }
-    a{
-        height: 50px;
-        width: 50px;
-    }
+        }
+
+        .inner {
+
+            padding: 20px;
+            text-decoration: none;
+            border-radius: 2px;
+            
+
+        }
+
+        a{
+            background-color: rgb(193, 182, 211);
+            margin: 10px;
+            color: red;
+            transition: 2s;
+            text-decoration: none;
+
+        }
+         body{
+            background-image:url(/Image/bg5.jpg);
+            height: 100vh;
+            width: 100vw;
+            background-size: cover;
+        }
+          h1{
+            text-align:center ;
+            position:absolute;
+            top: 400px;
+            left: 500px;
+            border-width: 20px;
+            
+
+        }
+        
     </style>
 </head>
+
 <body>
-    <div>
-       <div class="outer">
-        <h1>EMS</h1>
-        <div class="inner">
-            <button value="sumit">
-        <a href="div1.html" height: 50px; width: 50px;>Home</a>
-        <a href="resume.html" height: 50px;
-        width: 50px;>page</a>
-        <a href="gallary1.html" height: 50px;
-        width: 50px;>Galary</a>
-        <a href="transition.html" height: 50px;
-        width: 50px;>About</a></button>
-       </div>
-       </div>
-       
+    <div class="le">
+        <div class="outer">
+            <div class="cen"><h1>Hotel booking</h1></div>
+            <div class="inner">
+                
+                    <a href="div1.html" >Home</a>
+                    <a href="resume.html" >page</a>
+                    <a href="gallary1.html">Galary</a>
+                    <a href="transition.html">About</a>
+            </div>
+        </div>
     </div>
+    <div class="a">
+
+    </div>
+        
+    
 </body>
+
 </html>

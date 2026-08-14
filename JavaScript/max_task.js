@@ -1,0 +1,16 @@
+let p=3.14;
+let a=23;
+let l=56;
+let b=2;
+let r=3;
+let pp=2*p*r;
+let s=a*a;
+let re=l*b;
+document.write("P value is :"+p+"<br>");
+document.write("r value is :"+r+"<br>");
+document.write("perimeter value is :"+pp+"<br> <br>");
+document.write("a value is :"+a+"<br>");
+document.write("square of a:"+s+"<br><br>");
+document.write("lenght value is :"+l+"<br>");
+document.write("breadth value is :"+b+"<br>");
+document.write("rectangle value is :"+re+"<br>");
